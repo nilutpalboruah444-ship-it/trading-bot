@@ -11,9 +11,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 load_dotenv()
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-DELTA_API_KEY  = os.getenv(DELTA_API_KEY")
-DELTA_SECRET   = os.getenv(DELTA_SECRET")
-)
+DELTA_API_KEY = os.getenv("DELTA_API_KEY")
+DELTA_SECRET = os.getenv("DELTA_SECRET")
+
 BASE_URL = "https://cdn-ind.testnet.deltaex.org"
 
 ALLOWED_USER_IDS = [123456789]  # Replace with your Telegram user ID

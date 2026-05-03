@@ -10,9 +10,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv(8796352082:AAF8dHX-V5k_vAVfSuUE2UQ2J6Sao6mtqYM)
-DELTA_API_KEY  = os.getenv(TvcLRzxO9juy43VkqNBN3zXa9BsxuP)
-DELTA_SECRET   = os.getenv(0IGK7aaJsMwN72XyGICikgkeH5LLsnD6AjlGTE2lAHsrwhJ1kAk8pn9GKKyE)
+TELEGRAM_TOKEN = os.getenv(TELEGRAM_TOKEN")
+DELTA_API_KEY  = os.getenv(DELTA_API_KEY")
+DELTA_SECRET   = os.getenv(DELTA_SECRET")
 )
 BASE_URL = "https://cdn-ind.testnet.deltaex.org"
 

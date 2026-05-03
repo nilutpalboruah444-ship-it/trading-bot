@@ -10,7 +10,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv(TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 DELTA_API_KEY  = os.getenv(DELTA_API_KEY")
 DELTA_SECRET   = os.getenv(DELTA_SECRET")
 )

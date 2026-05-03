@@ -16,7 +16,7 @@ DELTA_SECRET = os.getenv("DELTA_SECRET")
 
 BASE_URL = "https://cdn-ind.testnet.deltaex.org"
 
-ALLOWED_USER_IDS = [123456789]  # Replace with your Telegram user ID
+ALLOWED_USER_IDS = [8565547871]
 
 def get_headers(method, path, body=""):
     timestamp = str(int(time.time()))
